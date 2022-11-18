@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>**Satwik's Resume**</title>
-</head>
-<body bgcolor="#FFE7CC">
-
+    <style>
+      body {
+        background-color: rgb(197, 230, 230);
+      }
+      hr{
+       
+        border-style: dotted none none;
+        /* width: 100px; */
+        width: 10%;
+        height: 0px;
+        border-width: 5px;
+        border-color: grey;
+    
+      }
+    </style>
+  </head>
+  <body bgcolor="#FFE7CC">
     <center>
-        <h1><em>----------RESUME----------</em></h1>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="data:image/jpeg;base64,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" alt="Satwik's Profile picture"
-    width="200" height="200"
-    border="3"></td>
-    <td>    <h2>Satwik Singh</h2>
-        <p><em>Student of <strong><a href="https://kiit.ac.in/">KIIT</a></strong></em></p>
-        <p>I am a cse student currently in my 2nd year.
-        I did my schooling from <em><a href="https://www.dpsbokaro.com/dpsi/">DPS BOKARO</a>,</em>
-        I was state topper in <em><a href="http://www.jharkhandmirror.net/sixteen-bokaro-students-shine-in-ntse-exam/">NTSE stage I 2019</a></em>.</p>
-    </td>
-            </tr>
-        </table>
-    
+      <h1><em>----------RESUME----------</em></h1>
+      <table cellspacing="20">
+        <tr>
+          <td>
+            <!-- <img
+               src="C:\Users\KIIT\Desktop\html\cv img1.jpeg"
+              alt="Satwik's Profile picture"
+              width="200"
+              height="200"
+              border="3"
+            /> -->
+          </td>
+          <td>
+            <h2>Satwik Singh</h2>
+            <p>
+              <em
+                >Student of
+                <strong><a href="https://kiit.ac.in/">KIIT</a></strong></em
+              >
+            </p>
+            <h3><strong>ABOUT</strong></h3>
 
-</center>
-    <hr>
+            <p>
+              I am a cse student currently in my 2nd year. I did my schooling
+              from
+              <em><a href="https://www.dpsbokaro.com/dpsi/">DPS BOKARO</a>,</em>
+              I was state topper in
+              <em
+                ><a
+                  href="http://www.jharkhandmirror.net/sixteen-bokaro-students-shine-in-ntse-exam/"
+                  >NTSE stage I 2019</a
+                ></em
+              >.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </center>
+    <hr />
     <a href="hobbies.html">My Hobbies</a>
-    <br>
-    <hr>
-    
-   
- 
+    <br />
+    <hr />
+
     <a href="programming.html">Programming Languages i know</a>
-<hr>
-<a href="skills.html">Skills</a>
-<hr>
+    <hr />
+    <a href="skills.html">Skills</a>
+    <hr />
 
-<a href="contactme.html">My Contact Details</a>
-    <br>
+    <a href="contactme.html">My Contact Details</a>
+    <br />
 
- <center><p>*********</p></center>    
-
-</body>
+    <center><p>*********</p></center>
+  </body>
 </html>
